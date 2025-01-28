@@ -28,7 +28,7 @@ export default {
         app.registerPlugin({
           id: PLUGIN_ID,
           initializer: Initializer,
-          isReady: false,
+          isReady: true,
           name: PLUGIN_ID,
         });
     },
